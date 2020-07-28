@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+nav{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+}
+.lobster{
+    font-family: 'Lobster', cursive;
+}
+.logo{
+    font-size: 2em;
+}
+.btn-link{
+    color: #000;
+    border: solid 1px #373a3C;
+}
+.btn-link:hover{
+    color: #000;
+    text-decoration: none;
+}
+.main-content h3{
+    font-size: 1.5em;
+}
+hr{
+    border: 1px solid #000;
+}
+.carousel-control{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators .active{
+    background-color: #373a3C;
+}
+.underline{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.card{
+    min-height: 400px;
+}
+.newsletter{
+    min-height: 500px;
+}
+.section-content button{
+    margin: 0 auto;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+@media (max-width: 768px) {
+    main{
+        text-align: center;
+    }
+}
